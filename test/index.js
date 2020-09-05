@@ -1,3 +1,4 @@
-var xx = require('../index');
+const tools = require('../index');
 
-xx.hello(66);
+tools.hello('hello boy');
+tools.say('hello', 'world', '!');
